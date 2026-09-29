@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>III. Preuves · Formation du Bureau de la Procureure Générale</title>
+<meta name="description" content="Types de preuves, admissibilité, ouï-dire, chaîne de possession, règle d'exclusion, fruit de l'arbre empoisonné, obligation Brady.">
+<link rel="icon" href="assets/img/sceau-bleu.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var d=document.documentElement;if(localStorage.getItem('bpg-dys')==='1')d.classList.add('dys');var t=localStorage.getItem('bpg-theme');if(t)d.setAttribute('data-theme',t);else if(matchMedia('(prefers-color-scheme: dark)').matches)d.setAttribute('data-theme','dark');var s=localStorage.getItem('bpg-size');if(s)d.setAttribute('data-size',s);}catch(e){}</script>
+</head>
+<body data-page="preuves">
+<main id="main"><div class="content">
+<header class="page-head">
+  <span class="part-tag">🔎 Partie III</span>
+  <h1>Les preuves</h1>
+  <p class="lede">Un dossier ne vaut que ce que valent ses preuves. Il faut savoir les classer, vérifier qu'elles seront admises, qu'on peut en retracer le parcours, et qu'on a tout transmis à la défense.</p>
+  <ul class="toc">
+    <li><a href="#types">1. Types</a></li>
+    <li><a href="#admissibilite">2. Admissibilité</a></li>
+    <li><a href="#chaine">3. Chaîne de possession</a></li>
+    <li><a href="#exclusion">4. Exclusion</a></li>
+    <li><a href="#brady">5. Brady</a></li>
+    <li><a href="#quiz" class="quiz-link">🧠 Quiz</a></li>
+  </ul>
+</header>
+
+<section id="types">
+  <h2><span class="section-num">1.</span>Les types de preuves</h2>
+  <div class="grid-2">
+    <div class="card navy"><h4>🔫 Matérielle</h4><p>Objets, armes, traces, ADN, empreintes.</p></div>
+    <div class="card gold"><h4>🗣️ Testimoniale</h4><p>Déclarations de témoins, de victimes ou de l'accusé.</p></div>
+    <div class="card blue"><h4>📄 Documentaire</h4><p>Écrits, registres, contrats, relevés.</p></div>
+    <div class="card green"><h4>📱 Numérique</h4><p>Vidéos, photos, messages, données téléphoniques.</p></div>
+  </div>
+
+  <h3>Et chaque preuve est aussi…</h3>
+  <div class="grid-2">
+    <div class="card"><h4>🎯 Directe</h4><p>Elle prouve le fait <strong>sans raisonnement</strong>. Un témoin a vu le tir.</p></div>
+    <div class="card"><h4>🧩 Circonstancielle</h4><p>Elle permet de <strong>déduire</strong> le fait. Des empreintes sur l'arme.</p></div>
+  </div>
+
+  <h3>🎬 Construisez un faisceau d'indices</h3>
+  <p>Un vol, aucun témoin. Activez les preuves circonstancielles une par une et regardez le dossier se renforcer.</p>
+  <div class="faisceau" data-msgs='["Aucune preuve : pas de dossier.","Un seul indice : fragile, la défense l&apos;expliquera facilement.","Deux indices concordants : le dossier prend forme.","Trois indices concordants : un faisceau solide, qui peut suffire à condamner."]'>
+    <div class="fx-btns">
+      <button type="button" data-w="30">📹 Filmé près des lieux</button>
+      <button type="button" data-w="35">👜 En possession de l'objet volé</button>
+      <button type="button" data-w="35">🕳️ Aucun alibi</button>
+    </div>
+    <div class="fx-bar" aria-hidden="true"><span></span></div>
+    <p class="fx-out" aria-live="polite"></p>
+  </div>
+
+  <div class="box piege">
+    <h4>⚠️ Pièges fréquents</h4>
+    <ul>
+      <li>Croire qu'une preuve circonstancielle est faible par nature. Plusieurs preuves circonstancielles concordantes peuvent suffire à condamner.</li>
+      <li>Tout miser sur un seul témoin.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="admissibilite">
+  <h2><span class="section-num">2.</span>L'admissibilité et la pertinence</h2>
+  <p>Pour entrer dans le dossier, une preuve doit franchir trois portes.</p>
+  <div class="flow">
+    <div class="step"><b>🎯 Pertinente</b>Liée aux faits jugés.</div>
+    <div class="step"><b>🔬 Fiable</b>Authentique, crédible.</div>
+    <div class="step"><b>⚖️ Légale</b>Obtenue dans le respect des droits.</div>
+    <div class="step" style="border-color:var(--green)"><b>✅ Admise</b>… sauf si le juge l'écarte.</div>
+  </div>
+  <p>Le juge peut écarter une preuve pourtant pertinente si elle risque de <strong>préjudicier l'accusé plus qu'elle n'éclaire les faits</strong>.</p>
+
+  <h3>👂 Le ouï-dire (<em>hearsay</em>)</h3>
+  <div class="grid-2">
+    <div class="card red"><h4>🚫 En principe irrecevable</h4><p>Un témoin ne peut pas rapporter ce qu'une autre personne a dit pour prouver que c'est vrai.</p></div>
+    <div class="card green"><h4>✅ Des exceptions</h4><p>Les déclarations spontanées, les aveux de l'accusé.</p></div>
+  </div>
+  <div class="box exemple">
+    <h4>🎬 Exemple</h4>
+    <p>Un témoin déclare : « Mon voisin m'a dit qu'il avait vu l'accusé s'enfuir. » C'est du ouï-dire. <strong>Il faut faire citer le voisin lui-même.</strong></p>
+  </div>
+  <div class="box piege">
+    <h4>⚠️ Pièges fréquents</h4>
+    <ul>
+      <li>Construire un dossier sur des propos rapportés, sans témoin direct.</li>
+      <li>Oublier qu'une preuve pertinente peut quand même être exclue.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="chaine">
+  <h2><span class="section-num">3.</span>La chaîne de possession</h2>
+  <p>La traçabilité complète d'une preuve matérielle, de sa saisie jusqu'à l'audience. Chaque maillon se déplie : il doit répondre à <strong>qui, quand, où</strong>.</p>
+  <div class="chain">
+    <details><summary>🧤 Saisie</summary><div class="inner">Qui l'a prise, à quelle heure, à quel endroit.</div></details>
+    <details><summary>🏷️ Scellé</summary><div class="inner">La preuve est scellée et identifiée. Jamais laissée sans surveillance.</div></details>
+    <details><summary>🔁 Transferts</summary><div class="inner">Chaque passage de main est documenté : date, heure, nom, signature. Jamais à l'oral.</div></details>
+    <details><summary>🗄️ Stockage</summary><div class="inner">Conservée dans un lieu sécurisé, avec un registre.</div></details>
+    <details><summary>🧑‍⚖️ Audience</summary><div class="inner">Présentée à la Cour avec son historique complet.</div></details>
+  </div>
+  <p>Une <strong>rupture</strong> dans la chaîne permet à la défense de contester l'authenticité ou l'intégrité de la preuve.</p>
+  <div class="box exemple">
+    <h4>🎬 Exemple</h4>
+    <p>Une arme saisie reste une nuit dans un véhicule de patrouille, sans registre. La défense peut soutenir qu'elle a pu être manipulée.</p>
+  </div>
+  <div class="box piege">
+    <h4>⚠️ Pièges fréquents</h4>
+    <ul>
+      <li>Une preuve restée sans surveillance, ou non scellée.</li>
+      <li>Un transfert oral, sans trace écrite.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="exclusion">
+  <h2><span class="section-num">4.</span>La règle d'exclusion et le fruit de l'arbre empoisonné</h2>
+  <div class="grid-2">
+    <div class="card red"><h4>🚫 Règle d'exclusion</h4><p>Une preuve obtenue en violation des droits constitutionnels est irrecevable : fouille illégale, aveux sans Miranda…</p></div>
+    <div class="card red"><h4>🌳 Fruit de l'arbre empoisonné</h4><p>Si l'arbre est empoisonné, ses fruits aussi : toute preuve qui <strong>découle</strong> de la preuve illégale est exclue.</p></div>
+  </div>
+
+  <h3>Les quatre exceptions</h3>
+  <div class="flip-grid">
+    <button class="flip" type="button"><span class="face front"><span class="big">🧭</span><b>Découverte inévitable</b><small>Retourner</small></span><span class="face back">La preuve aurait été trouvée légalement de toute façon.</span></button>
+    <button class="flip" type="button"><span class="face front"><span class="big">🛤️</span><b>Source indépendante</b><small>Retourner</small></span><span class="face back">La preuve a aussi été obtenue par une voie légale distincte.</span></button>
+    <button class="flip" type="button"><span class="face front"><span class="big">🧵</span><b>Lien atténué</b><small>Retourner</small></span><span class="face back">Le lien entre l'illégalité et la preuve est devenu trop ténu.</span></button>
+    <button class="flip" type="button"><span class="face front"><span class="big">🤝</span><b>Bonne foi</b><small>Retourner</small></span><span class="face back">Les agents se sont fiés raisonnablement à un mandat qui s'avère ensuite invalide.</span></button>
+  </div>
+
+  <h3>🧪 Testez une preuve</h3>
+  <p>Répondez aux questions pour savoir si la preuve passera l'audience.</p>
+  <div class="explorer" data-src="ex-preuve"></div>
+  <script type="application/json" id="ex-preuve">
+  {"start":"q1","nodes":{
+    "q1":{"t":"La preuve a-t-elle été obtenue légalement ?","short":"Légale ?","emo":"❓","c":"blue","html":"<p>Mandat valide, fouille justifiée, droits lus, suspicion raisonnable…</p>","ch":[{"l":"Oui, tout est en règle","to":"q2","c":"green"},{"l":"Non, les droits constitutionnels ont été violés","to":"illegal","c":"red"}]},
+    "q2":{"t":"Découle-t-elle d'une autre preuve illégale ?","short":"Dérivée ?","emo":"🌳","c":"blue","ch":[{"l":"Non, elle est indépendante","to":"ok","c":"green"},{"l":"Oui, elle a été trouvée grâce à une preuve illégale","to":"fruit","c":"red"}]},
+    "illegal":{"t":"Preuve exclue","short":"Exclue","emo":"🚫","c":"red","html":"<p>Règle d'exclusion : elle est irrecevable. Et tout ce qui en découle est menacé.</p>","ch":[{"l":"Vérifier ce qui en découle","to":"fruit","c":"orange"}]},
+    "fruit":{"t":"Fruit de l'arbre empoisonné","short":"Fruit empoisonné","emo":"🍎","c":"orange","html":"<p>Par principe, la preuve dérivée est exclue. Une exception peut-elle être <strong>démontrée concrètement</strong> ?</p>","ch":[{"l":"Elle aurait été trouvée de toute façon","to":"exc","c":"green"},{"l":"Elle a aussi été obtenue par une voie légale distincte","to":"exc","c":"green"},{"l":"Le lien avec l'illégalité est devenu trop ténu","to":"exc","c":"green"},{"l":"Les agents se fiaient de bonne foi à un mandat","to":"exc","c":"green"},{"l":"Aucune exception démontrable","to":"ko","c":"red"}]},
+    "exc":{"t":"L'exception peut sauver la preuve","short":"Exception","emo":"🛟","c":"green","html":"<p>La preuve peut être admise, <strong>à condition de pouvoir démontrer l'exception</strong> devant le juge, pièces à l'appui.</p>","ch":[{"l":"Vérifier la pertinence et la fiabilité","to":"ok","c":"blue"}]},
+    "ok":{"t":"Recevable, si elle est pertinente et fiable","short":"Recevable","emo":"✅","c":"green","html":"<p>Dernières vérifications : liée aux faits jugés, fiable, chaîne de possession complète. Et le juge peut encore l'écarter si elle préjudicie plus qu'elle n'éclaire.</p>"},
+    "ko":{"t":"Preuve exclue","short":"Exclue","emo":"🚫","c":"red","html":"<p>Sans exception démontrable, la preuve tombe avec l'arbre. Si elle était centrale, c'est peut-être le moment de <strong>négocier</strong> plutôt que de jouer le procès (voir partie V).</p>"}
+  }}
+  </script>
+
+  <div class="box exemple">
+    <h4>🎬 Exemple</h4>
+    <p>Un aveu est obtenu sans lecture des droits Miranda, et le suspect indique où est cachée l'arme. L'aveu est exclu, <strong>et l'arme aussi</strong>, sauf si une fouille déjà prévue l'aurait trouvée (découverte inévitable).</p>
+  </div>
+  <div class="box piege">
+    <h4>⚠️ Pièges fréquents</h4>
+    <ul>
+      <li>Ne vérifier la légalité que de la preuve principale, pas de ce qui en découle.</li>
+      <li>Invoquer une exception sans pouvoir la démontrer concrètement.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="brady">
+  <h2><span class="section-num">5.</span>L'obligation de divulgation (Brady)</h2>
+  <div class="grid-3">
+    <div class="card navy"><h4>📤 Quoi ?</h4><p>Toute preuve <strong>favorable</strong> à l'accusé : qui le disculpe ou atténue sa peine.</p></div>
+    <div class="card gold"><h4>🧐 Y compris…</h4><p>Ce qui affaiblit un témoin à charge : contradictions, accord passé avec lui, antécédents.</p></div>
+    <div class="card red"><h4>💥 Sinon ?</h4><p>Volontaire ou non, si la preuve était importante, la condamnation peut être <strong>annulée</strong>.</p></div>
+  </div>
+  <div class="box exemple">
+    <h4>🎬 Exemple</h4>
+    <p>Un témoin clé a d'abord identifié une autre personne. Cette première déclaration doit être transmise à la défense.</p>
+  </div>
+  <div class="box piege">
+    <h4>⚠️ Pièges fréquents</h4>
+    <ul>
+      <li>Penser que « la défense n'a qu'à la trouver elle-même ».</li>
+      <li>Oublier les éléments détenus par la police mais pas transmis au Bureau : ils comptent aussi.</li>
+    </ul>
+  </div>
+</section>
+
+<aside class="box retenir">
+  <h3>📌 À retenir</h3>
+  <ul>
+    <li>Quatre types (matérielle, testimoniale, documentaire, numérique), chacune <strong>directe</strong> ou <strong>circonstancielle</strong>.</li>
+    <li>Plusieurs indices concordants forment un <strong>faisceau</strong> qui peut suffire à condamner.</li>
+    <li>Une preuve admise est <strong>pertinente, fiable et légale</strong>. Le ouï-dire est en principe irrecevable.</li>
+    <li>La chaîne de possession documente chaque transfert : date, heure, nom, signature.</li>
+    <li>Preuve illégale = exclue, et ses fruits aussi, sauf exception <strong>démontrée</strong>.</li>
+    <li>Brady : tout ce qui est favorable à l'accusé est transmis à la défense, y compris ce que détient la police.</li>
+  </ul>
+</aside>
+
+<aside class="box reflexe">
+  <h3>⚡ Fiche réflexe : « Je vérifie mes preuves avant l'audience »</h3>
+  <ul class="checklist">
+    <li><label><input type="checkbox"><span><span class="step">1.</span>Chaque preuve est-elle pertinente ?</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">2.</span>A-t-elle été obtenue légalement, et celles qui en découlent aussi ?</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">3.</span>La chaîne de possession est-elle complète et documentée ?</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">4.</span>Mes témoignages sont-ils directs, et pas du ouï-dire ?</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">5.</span>Ai-je divulgué à la défense tout ce qui lui est favorable ?</span></label></li>
+  </ul>
+</aside>
+
+<section class="quiz" id="quiz" data-quiz="preuves">
+  <h2>🧠 Quiz : Preuves</h2>
+  <p class="quiz-intro">10 questions. Répondez à tout, puis validez : la correction détaillée s'affiche à la fin.</p>
+  <script type="application/json">
+  [
+    {"q":"Des messages téléphoniques sont une preuve :","o":["Matérielle","Numérique","Testimoniale","Documentaire uniquement"],"a":1,"e":"Vidéos, photos, messages et données téléphoniques sont des preuves numériques."},
+    {"q":"Des empreintes digitales sur l'arme du crime sont une preuve :","o":["Directe","Par ouï-dire","Circonstancielle","Irrecevable"],"a":2,"e":"Elles permettent de déduire le fait, sans le prouver directement : c'est une preuve circonstancielle."},
+    {"q":"Plusieurs preuves circonstancielles concordantes :","o":["Ne suffisent jamais à condamner","Peuvent former un faisceau suffisant pour condamner","Doivent être confirmées par un aveu","Sont automatiquement exclues"],"a":1,"e":"Un faisceau d'indices concordants peut suffire à condamner. Penser le contraire est un piège fréquent."},
+    {"q":"Quelles sont les trois conditions d'admission d'une preuve ?","o":["Pertinente, fiable, légalement obtenue","Directe, écrite, signée","Récente, matérielle, scellée","Favorable, vérifiée, numérique"],"a":0,"e":"Pour être admise, une preuve doit être pertinente, fiable et légalement obtenue."},
+    {"q":"« Mon voisin m'a dit qu'il avait vu l'accusé s'enfuir. » Que faire ?","o":["Retenir ce témoignage tel quel","Le présenter comme un aveu","Faire citer le voisin lui-même","L'écarter et abandonner les poursuites"],"a":2,"e":"C'est du ouï-dire, en principe irrecevable : il faut faire citer le témoin direct, le voisin."},
+    {"q":"Une arme saisie a passé la nuit dans une voiture de patrouille, sans registre. Quel est le risque ?","o":["Aucun, l'arme reste une preuve","La défense conteste l'intégrité de la preuve pour rupture de la chaîne de possession","L'arme devient une preuve numérique","Le procès est automatiquement annulé"],"a":1,"e":"Une rupture dans la chaîne de possession permet à la défense de soutenir que la preuve a pu être manipulée."},
+    {"q":"Un aveu sans Miranda révèle la cachette d'une arme. Sans exception, que devient l'arme ?","o":["Elle reste recevable","Elle est recevable si elle est pertinente","Elle devient une preuve testimoniale","Elle est exclue, comme fruit de l'arbre empoisonné"],"a":3,"e":"L'aveu est exclu, et l'arme qui en découle aussi, sauf exception comme la découverte inévitable."},
+    {"q":"Quelle exception s'applique quand la preuve aurait été trouvée légalement de toute façon ?","o":["La source indépendante","La bonne foi","La découverte inévitable","Le lien atténué"],"a":2,"e":"Découverte inévitable : la preuve aurait été trouvée légalement de toute façon."},
+    {"q":"Les agents se sont fiés raisonnablement à un mandat qui s'avère invalide. Quelle exception invoquer ?","o":["La bonne foi","La source indépendante","Le ouï-dire","La découverte inévitable"],"a":0,"e":"L'exception de bonne foi couvre les agents qui se sont raisonnablement fiés à un mandat ensuite invalidé."},
+    {"q":"Un élément favorable à l'accusé est détenu par la police, mais pas transmis au Bureau. Doit-il être divulgué ?","o":["Non, le Bureau ne l'a pas","Seulement si la défense le demande","Oui, il compte aussi au titre de l'obligation Brady","Seulement en cas de procès civil"],"a":2,"e":"Les éléments détenus par la police comptent aussi. Les oublier est un piège fréquent."}
+  ]
+  </script>
+</section>
+
+</div></main>
+<script src="js/main.js"></script>
+</body>
+</html>

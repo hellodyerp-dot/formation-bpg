@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>II. Plaintes · Formation du Bureau de la Procureure Générale</title>
+<meta name="description" content="Plainte DOJ et plainte citoyenne : rédaction, schéma interactif des suites, rôle du Bureau.">
+<link rel="icon" href="assets/img/sceau-bleu.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var d=document.documentElement;if(localStorage.getItem('bpg-dys')==='1')d.classList.add('dys');var t=localStorage.getItem('bpg-theme');if(t)d.setAttribute('data-theme',t);else if(matchMedia('(prefers-color-scheme: dark)').matches)d.setAttribute('data-theme','dark');var s=localStorage.getItem('bpg-size');if(s)d.setAttribute('data-size',s);}catch(e){}</script>
+</head>
+<body data-page="plaintes">
+<main id="main"><div class="content">
+<header class="page-head">
+  <span class="part-tag">📝 Partie II</span>
+  <h1>Les plaintes</h1>
+  <p class="lede">Deux familles : la plainte DOJ, qui implique un fonctionnaire, et la plainte citoyenne. Dans les deux cas, c'est le Bureau qui décide des suites.</p>
+  <ul class="toc">
+    <li><a href="#doj">A. Plainte DOJ</a></li>
+    <li><a href="#schema">Le schéma interactif</a></li>
+    <li><a href="#citoyenne">B. Plainte citoyenne</a></li>
+    <li><a href="#comparer">Comparer</a></li>
+    <li><a href="#quiz" class="quiz-link">🧠 Quiz</a></li>
+  </ul>
+</header>
+
+<section id="doj">
+  <h2><span class="section-num">A.</span>La plainte DOJ</h2>
+  <p>Elle est <strong>prise par le Bureau du Procureur</strong> et concerne un fonctionnaire, soit parce qu'il est <strong>visé</strong> par la plainte, soit parce qu'il est <strong>plaignant</strong>.</p>
+
+  <h3>✍️ Rédiger la plainte</h3>
+  <div class="grid-2">
+    <div class="card navy"><h4>🗣️ À la première personne</h4><p>On écrit comme si le plaignant parlait : « Je… », <strong>entre guillemets</strong>.</p></div>
+    <div class="card gold"><h4>➕ Avec les mentions finales</h4><p>La demande de dommages et intérêts, et la demande d'enquête. Le modèle ci-dessous se copie en un clic.</p></div>
+  </div>
+
+  <div class="template">« Je soussigné(e) [nom, prénom, fonction], déclare les faits suivants : [récit des faits, à la première personne, daté et précis].
+
+En conséquence, je sollicite l'octroi de dommages et intérêts, dont le montant sera communiqué à l'issue de mon rendez-vous avec mon avocat, afin de permettre l'évaluation du préjudice moral et psychologique subi à la suite de ces faits.
+
+Je demande que ces faits fassent l'objet d'une enquête et que toutes les suites appropriées puissent leur être données. »</div>
+  <p class="zoom-cap">Les passages entre crochets sont à compléter. Les deux derniers paragraphes sont les mentions à ajouter systématiquement.</p>
+</section>
+
+<section id="schema">
+  <h2>🗺️ Le schéma de la plainte DOJ, pas à pas</h2>
+  <p>Choisissez une situation et suivez les flèches jusqu'à l'issue. Le fil en haut garde la trace de votre chemin : cliquez dessus pour revenir en arrière.</p>
+
+  <div class="box piege" style="margin-top:0">
+    <h4>🔔 Dans tous les cas</h4>
+    <p><strong>TOUJOURS prévenir l'État-Major / la Direction du fonctionnaire.<br>TOUJOURS prévenir la Procureure Générale.</strong></p>
+  </div>
+
+  <div class="explorer" data-src="ex-plainte"></div>
+  <script type="application/json" id="ex-plainte">
+  {"start":"root","nodes":{
+    "root":{"t":"Plainte DOJ","short":"Plainte DOJ","emo":"📝","c":"gold","html":"<p>Une plainte qui implique un fonctionnaire. Première question : quelle est sa place dans la plainte ?</p>","ch":[{"l":"Cas 1 : le fonctionnaire est visé par la plainte","to":"cas1","c":"red"},{"l":"Cas 2 : le fonctionnaire est plaignant","to":"cas2","c":"blue"}]},
+
+    "cas1":{"t":"Cas 1 : le fonctionnaire est visé","short":"Cas 1","emo":"🎯","c":"blue","html":"<p><strong>Enquête du Bureau de la Procureure Générale</strong> pour :</p><ul><li>vérifier les faits ;</li><li>les caractériser : I, II ou III ;</li><li>décider de l'opportunité des poursuites.</li></ul><p>Qu'a révélé l'enquête ?</p>","ch":[{"l":"I. Assez d'éléments pour caractériser une infraction pénale","to":"i","c":"red"},{"l":"II. Assez d'éléments pour une faute professionnelle (pas une infraction)","to":"ii","c":"orange"},{"l":"III. Ni infraction, ni faute professionnelle","to":"iii","c":"green"}]},
+
+    "i":{"t":"I. Infraction pénale caractérisée","short":"I. Infraction","emo":"🚨","c":"red","html":"<p><strong>Confrontation systématique</strong> entre le fonctionnaire visé et le plaignant. <strong>Respect du contradictoire !</strong></p><p>Dans ce contexte, le Bureau n'est plus l'avocat du fonctionnaire (dans 99 % des cas). Il représente l'intérêt général, l'intérêt de l'État, l'intérêt de tous : si un préjudice est commis envers l'État, il ne peut pas le défendre.</p><ul><li>Préjudice envers l'État = <strong>infraction</strong></li><li>Réparation de ce préjudice = <strong>sanction pénale</strong> (prison, amende)</li><li>Le Bureau ne représente (quasiment) jamais le fonctionnaire au civil dans ce contexte.</li></ul>","note":"Exceptions où le Bureau n'est plus l'accusation pénale : procureur spécial, etc. Voir le cours sur les exceptions.","ch":[{"l":"A) Délit majeur ou crime","to":"ia","c":"red"},{"l":"B) Délit mineur ou contravention","to":"ib","c":"orange"}]},
+
+    "ia":{"t":"A) Délit majeur ou crime","short":"A) Délit majeur/Crime","emo":"🔴","c":"red","html":"<p><strong>Mise à pied</strong> pendant le procès ou l'accord :</p><ul><li>prévenir la Direction / l'État-Major ;</li><li>prévenir la mairie.</li></ul><p>Deux solutions pour la suite :</p>","ch":[{"l":"Solution 1 : le procès","to":"proces","c":"red"},{"l":"Solution 2 : l'accord","to":"accord","c":"orange"}]},
+    "proces":{"t":"Le procès","short":"Procès","emo":"🧑‍⚖️","c":"red","html":"<p>À l'issue, deux solutions.</p>","ch":[{"l":"Coupable","to":"coupable","c":"red"},{"l":"Non coupable","to":"noncoupable","c":"green"}]},
+    "accord":{"t":"L'accord","short":"Accord","emo":"🤝","c":"orange","html":"<p>Comme pour le procès, l'issue mène à deux solutions.</p>","ch":[{"l":"Coupable","to":"coupable","c":"red"},{"l":"Non coupable","to":"noncoupable","c":"green"}]},
+    "coupable":{"t":"Coupable","short":"Coupable","emo":"⛓️","c":"red","html":"<p>Amende, prison…</p><p>Puis : <strong>conseil de discipline</strong> ou <strong>licenciement immédiat</strong>.</p>"},
+    "noncoupable":{"t":"Non coupable","short":"Non coupable","emo":"🟢","c":"green","html":"<p>Pas de condamnation.</p><p><strong>Reprise de poste</strong> : fin de la mise à pied.</p>"},
+    "ib":{"t":"B) Délit mineur ou contravention","short":"B) Délit mineur","emo":"🟠","c":"orange","html":"<p><strong>Sanctions administratives proportionnées</strong> : avertissement, blâme, amende, mise à pied.</p><ul><li>prévenir la Direction / l'État-Major (EM) ;</li><li>conseil de discipline possible.</li></ul>"},
+
+    "ii":{"t":"II. Faute professionnelle","short":"II. Faute pro","emo":"🧾","c":"orange","html":"<p>Assez d'éléments pour caractériser une faute professionnelle, qui n'est pas une infraction pénale. Quelle gravité ?</p>","ch":[{"l":"Faute grave (sans poursuite pénale)","to":"fg","c":"red"},{"l":"Faute intermédiaire (manquement important, moyen, médiocre)","to":"fi","c":"orange"},{"l":"Faute légère","to":"fl","c":"green"}]},
+    "fg":{"t":"Faute grave, sans poursuite pénale","short":"Faute grave","emo":"🔴","c":"red","html":"<p>Si la faute justifiait des poursuites pénales, on serait dans le cas I. Ici, deux issues disciplinaires :</p>","ch":[{"l":"Conseil de discipline qui mène au licenciement","to":"fg1","c":"red"},{"l":"Conseil de discipline ou autre sanction, sans licenciement","to":"fg2","c":"orange"}]},
+    "fg1":{"t":"Licenciement après conseil de discipline","short":"Licenciement","emo":"📤","c":"red","html":"<p>Le fonctionnaire est licencié. Le plaignant peut encore agir au civil.</p>","ch":[{"l":"Le plaignant agit au civil","to":"civil","c":"pink"}]},
+    "fg2":{"t":"Sanction sans licenciement","short":"Sanction","emo":"📋","c":"orange","html":"<p>Conseil de discipline ou autre sanction qui ne mène pas au licenciement. Le plaignant peut encore agir au civil.</p>","ch":[{"l":"Le plaignant agit au civil","to":"civil","c":"pink"}]},
+    "fi":{"t":"Faute intermédiaire","short":"Faute intermédiaire","emo":"🟠","c":"orange","html":"<p><strong>Sanction proportionnée à la faute</strong>, en adéquation avec l'avis de la Direction / de l'État-Major.</p>","ch":[{"l":"Le plaignant agit au civil","to":"civil","c":"pink"}]},
+    "fl":{"t":"Faute légère","short":"Faute légère","emo":"🟢","c":"green","html":"<p>Sermon, remontrance, sanction faible (avertissement).</p>","note":"Le Bureau du Procureur représente le fonctionnaire dans 99 % des cas pour une faute légère, s'il n'y a pas de faute, ou s'il n'y a pas d'infraction.","ch":[{"l":"Le plaignant agit au civil","to":"civil","c":"pink"}]},
+
+    "iii":{"t":"III. Ni infraction, ni faute professionnelle","short":"III. Rien","emo":"📁","c":"green","html":"<p><strong>Classement sans suite au pénal.</strong></p>","note":"Le Bureau du Procureur représente le fonctionnaire dans 99 % des cas pour une faute légère, s'il n'y a pas de faute, ou s'il n'y a pas d'infraction.","ch":[{"l":"Le plaignant agit malgré tout au civil","to":"civil","c":"pink"}]},
+
+    "civil":{"t":"Action au civil du plaignant (demandeur)","short":"Civil","emo":"💼","c":"pink","html":"<p>Le plaignant demande réparation. Le Bureau représente-t-il le fonctionnaire (ou l'ancien fonctionnaire) ?</p>","ch":[{"l":"Le Bureau accepte de le représenter","to":"civ-oui","c":"green"},{"l":"Le Bureau refuse de le représenter","to":"civ-non","c":"red"}]},
+    "civ-oui":{"t":"Le Bureau représente le fonctionnaire","short":"Bureau défend","emo":"🛡️","c":"green","html":"<p>Le Bureau se constitue <strong>partie défenderesse</strong>.</p>","ch":[{"l":"Recherche d'accord","to":"rech1","c":"gold"}]},
+    "civ-non":{"t":"Le Bureau refuse","short":"Bureau refuse","emo":"🙅","c":"red","html":"<p>Le fonctionnaire doit trouver un avocat, s'il le souhaite.</p>","ch":[{"l":"Recherche d'accord","to":"rech1","c":"gold"}]},
+    "rech1":{"t":"Recherche d'accord","short":"Recherche d'accord","emo":"🤝","c":"gold","html":"<p>Le Bureau est soit <strong>une partie</strong> (s'il représente le fonctionnaire), soit <strong>l'arbitre</strong> de la confrontation.</p>","ch":[{"l":"Accord","to":"acc1","c":"green"},{"l":"Pas d'accord","to":"nacc1","c":"red"}]},
+    "acc1":{"t":"Accord trouvé","short":"Accord","emo":"✅","c":"green","html":"<p>L'affaire se règle à l'amiable.</p>"},
+    "nacc1":{"t":"Pas d'accord : procès civil","short":"Procès civil","emo":"🧑‍⚖️","c":"red","html":"<p>Procès civil : <strong>demande de réparation des préjudices</strong>.</p>"},
+
+    "cas2":{"t":"Cas 2 : le fonctionnaire est plaignant","short":"Cas 2","emo":"🙋","c":"blue","html":"<p>Première étape : <strong>établir le préjudice</strong>.</p><ul><li>Préjudice <strong>à l'État</strong> : volet pénal.</li><li>Préjudice <strong>au fonctionnaire directement</strong> : volet civil.</li></ul>","ch":[{"l":"Contacter les services compétents","to":"services","c":"blue"}]},
+    "services":{"t":"Contacter les services compétents","short":"Services","emo":"📞","c":"red","html":"<ul><li>Besoin d'une <strong>arrestation immédiate</strong> : SASP.</li><li>Besoin d'une <strong>enquête</strong> : MCD, IRS, Cyber.</li></ul>","ch":[{"l":"Faire une audition libre de la personne visée","to":"audition","c":"blue"}]},
+    "audition":{"t":"Audition libre de la personne visée par la plainte","short":"Audition libre","emo":"🎙️","c":"blue","html":"<p>Avec ou sans le SASP. Ensuite, trois voies possibles.</p>","note":"Pénal et civil ne sont pas antinomiques, mais pas systématiques non plus : on peut poursuivre au pénal sans action civile, agir au civil sans poursuite pénale, ou faire l'un ou l'autre.","ch":[{"l":"Poursuite pénale (infraction caractérisée)","to":"penal","c":"red"},{"l":"Action au civil","to":"civil2","c":"blue"},{"l":"Ni poursuite pénale, ni action au civil","to":"sans","c":"green"}]},
+    "penal":{"t":"Poursuite pénale","short":"Pénal","emo":"🚓","c":"red","html":"<p><strong>Arrestation par le SASP sur ordre du procureur.</strong> Ensuite, selon la situation :</p>","ch":[{"l":"Cas général","to":"classique","c":"red"},{"l":"Flagrant délit (article 2.9 du Code pénal)","to":"flag","c":"blue"}]},
+    "classique":{"t":"Procès pénal classique ou accord pénal","short":"Procès/accord","emo":"🧑‍⚖️","c":"red","html":"<p>Le Bureau mène l'accusation : procès, ou accord négocié (voir partie V).</p>"},
+    "flag":{"t":"Comparution immédiate","short":"CI","emo":"⚡","c":"blue","html":"<p>Possible <strong>s'il ne s'agit pas d'un crime</strong>.</p><p>L'ordre est donné par le Bureau de la Procureure Générale, et la <strong>présence du procureur est obligatoire</strong>.</p>"},
+    "civil2":{"t":"Action au civil","short":"Civil","emo":"💼","c":"blue","html":"<p>Le Bureau de la Procureure Générale se porte <strong>partie demanderesse</strong> au civil.</p>","ch":[{"l":"Recherche d'accord","to":"rech2","c":"gold"}]},
+    "rech2":{"t":"Recherche d'accord","short":"Recherche d'accord","emo":"🤝","c":"gold","html":"<p>Le Bureau de la Procureure Générale est ici <strong>partie demanderesse</strong>.</p>","ch":[{"l":"Accord","to":"acc2","c":"green"},{"l":"Pas d'accord","to":"nacc2","c":"red"}]},
+    "acc2":{"t":"Accord trouvé","short":"Accord","emo":"✅","c":"green","html":"<p>L'affaire se règle à l'amiable.</p>"},
+    "nacc2":{"t":"Pas d'accord : procès civil","short":"Procès civil","emo":"🧑‍⚖️","c":"red","html":"<p>Procès civil : <strong>demande de réparation des préjudices</strong>.</p>"},
+    "sans":{"t":"Plainte classée sans suite","short":"Sans suite","emo":"📁","c":"green","html":"<p>Ni poursuite pénale, ni action civile : la plainte est classée.</p>"}
+  }}
+  </script>
+
+  <h3>Le schéma original</h3>
+  <p>Pour avoir la vue d'ensemble, ouvrez le schéma complet de la formation. Il se lit de gauche à droite.</p>
+  <button type="button" class="zoom-thumb" data-full="assets/img/schema-plainte.png" data-alt="Schéma complet de la plainte DOJ" aria-label="Agrandir le schéma complet de la plainte DOJ"><img src="assets/img/schema-plainte.png" alt="Schéma complet de la plainte DOJ : cas 1 fonctionnaire visé, cas 2 fonctionnaire plaignant" loading="lazy"></button>
+  <p class="zoom-cap">🔍 Cliquez pour ouvrir en grand, puis « Taille réelle » pour lire les détails.</p>
+
+  <h3>Le code couleur du schéma</h3>
+  <div class="grid-3">
+    <div class="card red"><h4 class="c-red">Rouge</h4><p>Pénal lourd, faute grave, étapes de contact des services.</p></div>
+    <div class="card orange"><h4 class="c-orange">Orange</h4><p>Délit mineur, faute intermédiaire, sanctions proportionnées.</p></div>
+    <div class="card green"><h4 class="c-green">Vert</h4><p>Faute légère, non-culpabilité, accord trouvé.</p></div>
+    <div class="card blue"><h4 class="c-blue">Bleu</h4><p>L'enquête du Bureau et le flagrant délit.</p></div>
+  </div>
+</section>
+
+<section id="citoyenne">
+  <h2><span class="section-num">B.</span>La plainte citoyenne</h2>
+  <p>Même logique que la plainte DOJ, mais entre citoyens, et prise par la police.</p>
+  <div class="flow">
+    <div class="step"><b>👮 Prise de plainte</b>Par un agent de police, qui enquête de son côté.</div>
+    <div class="step"><b>📞 Avis du Bureau</b>L'agent demande quoi faire : audition libre, vérification des preuves…</div>
+    <div class="step"><b>⚖️ Décision du Bureau</b>Opportunité des poursuites + état de la plainte (ouverte ou close).</div>
+    <div class="step"><b>🤜🤛 Confrontation</b>Presque toujours, entre le plaignant et la personne visée.</div>
+    <div class="step"><b>🏁 Issue</b>Procès, accord… ou rien du tout.</div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card navy"><h4>🗣️ La qualification, c'est nous</h4><p>Si la procédure est pénale, c'est le <strong>procureur</strong> qui énonce la qualification des faits.</p></div>
+    <div class="card red"><h4>🚫 Jamais de classement seul</h4><p>Une plainte ne doit <strong>pas</strong> être terminée ou classée sans l'avis du Bureau de la Procureure Générale.</p></div>
+    <div class="card blue"><h4>💼 Le civil reste ouvert</h4><p>Une plainte peut rester au civil même si l'accusation (c'est-à-dire nous) ne l'a pas poursuivie au pénal.</p></div>
+  </div>
+</section>
+
+<section id="comparer">
+  <h2>🔁 DOJ ou citoyenne : ce qui change</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th></th><th>Plainte DOJ</th><th>Plainte citoyenne</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Qui la prend ?</strong></td><td>Le Bureau du Procureur</td><td>Un agent de police</td></tr>
+      <tr><td><strong>Qui enquête ?</strong></td><td>Le Bureau de la Procureure Générale</td><td>L'agent, en demandant l'avis du Bureau</td></tr>
+      <tr><td><strong>Qui est impliqué ?</strong></td><td>Un fonctionnaire (visé ou plaignant)</td><td>Des citoyens</td></tr>
+      <tr><td><strong>Confrontation</strong></td><td>Systématique en cas d'infraction</td><td>Quasiment toujours</td></tr>
+      <tr><td><strong>Opportunité des poursuites</strong></td><td>Le Bureau</td><td>Le Bureau</td></tr>
+      <tr><td><strong>Suite civile possible</strong></td><td>Oui</td><td>Oui, même sans poursuite pénale</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<aside class="box retenir">
+  <h3>📌 À retenir</h3>
+  <ul>
+    <li>Plainte DOJ : rédigée par le Bureau, <strong>à la première personne, entre guillemets</strong>, avec les mentions de dommages et intérêts et de demande d'enquête.</li>
+    <li>Cas 1 (fonctionnaire visé) : enquête du Bureau, puis qualification <strong>I</strong> (infraction), <strong>II</strong> (faute pro) ou <strong>III</strong> (rien).</li>
+    <li>En cas d'infraction : <strong>confrontation systématique</strong>, respect du contradictoire, et le Bureau n'est plus l'avocat du fonctionnaire.</li>
+    <li>Cas 2 (fonctionnaire plaignant) : établir le préjudice (État = pénal, fonctionnaire = civil), puis pénal, civil, les deux ou aucun.</li>
+    <li><strong>Toujours</strong> prévenir la Direction / l'État-Major et la Procureure Générale.</li>
+    <li>Plainte citoyenne : jamais classée sans l'avis du Bureau.</li>
+  </ul>
+</aside>
+
+<aside class="box reflexe">
+  <h3>⚡ Fiche réflexe : « Je reçois une plainte »</h3>
+  <ul class="checklist">
+    <li><label><input type="checkbox"><span><span class="step">1.</span>DOJ ou citoyenne ? Si un fonctionnaire est impliqué : visé (cas 1) ou plaignant (cas 2) ?</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">2.</span>Je préviens la Procureure Générale et la Direction / l'État-Major du fonctionnaire.</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">3.</span>Plainte DOJ : je la rédige à la première personne, entre guillemets, avec les deux mentions finales.</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">4.</span>J'enquête et je qualifie : infraction (I), faute pro (II) ou rien (III).</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">5.</span>J'organise la confrontation en respectant le contradictoire.</span></label></li>
+    <li><label><input type="checkbox"><span><span class="step">6.</span>J'oriente : pénal, disciplinaire, civil, et je sais si le Bureau représente ou non le fonctionnaire.</span></label></li>
+  </ul>
+</aside>
+
+<section class="quiz" id="quiz" data-quiz="plaintes">
+  <h2>🧠 Quiz : Plaintes</h2>
+  <p class="quiz-intro">10 questions. Répondez à tout, puis validez : la correction détaillée s'affiche à la fin.</p>
+  <script type="application/json">
+  [
+    {"q":"Comment rédige-t-on une plainte DOJ ?","o":["À la troisième personne, sous forme de rapport","À la première personne, entre guillemets","Sous forme de questions-réponses","En reprenant uniquement les articles du Code pénal"],"a":1,"e":"La plainte DOJ est prise par le Bureau et rédigée à la première personne, entre guillemets."},
+    {"q":"Quelles mentions faut-il ajouter à la fin d'une plainte DOJ ?","o":["La peine demandée et le numéro d'article","Le nom de l'avocat et sa signature","La demande de dommages et intérêts et la demande d'enquête","La date du procès"],"a":2,"e":"On ajoute la demande de dommages et intérêts (montant communiqué après le rendez-vous avec l'avocat) et la demande que les faits fassent l'objet d'une enquête."},
+    {"q":"Dans le cas 1, que doit permettre l'enquête du Bureau ?","o":["Vérifier les faits, les caractériser (I/II/III) et décider de l'opportunité des poursuites","Uniquement fixer le montant des dommages et intérêts","Désigner un avocat au fonctionnaire","Prévenir la presse"],"a":0,"e":"L'enquête sert à vérifier les faits, à les caractériser en I, II ou III et à décider de l'opportunité des poursuites."},
+    {"q":"Un fonctionnaire est visé pour une infraction pénale caractérisée. Quelle est la position du Bureau ?","o":["Il reste son avocat","Il n'est plus son avocat dans 99 % des cas : il représente l'intérêt général","Il se retire totalement de l'affaire","Il devient juge de l'affaire"],"a":1,"e":"Le Bureau représente l'intérêt de l'État et de tous : il ne peut pas défendre un préjudice commis envers l'État."},
+    {"q":"Que se passe-t-il pour un fonctionnaire visé pour un délit majeur ou un crime, pendant le procès ou l'accord ?","o":["Il continue normalement son service","Il est immédiatement licencié","Il est mis à pied, et l'on prévient la Direction/EM et la mairie","Il est placé en détention d'office"],"a":2,"e":"Mise à pied durant le procès ou l'accord, avec information de la Direction/État-Major et de la mairie."},
+    {"q":"Le fonctionnaire est déclaré non coupable. Quelle est la suite ?","o":["Conseil de discipline obligatoire","Reprise de poste : fin de la mise à pied","Mutation automatique","Procès civil obligatoire"],"a":1,"e":"Pas de condamnation : reprise de poste, fin de la mise à pied."},
+    {"q":"Pour une faute légère, sans infraction, dans combien de cas le Bureau représente-t-il le fonctionnaire au civil ?","o":["Jamais","Dans 50 % des cas","Uniquement si la Direction le demande","Dans 99 % des cas"],"a":3,"e":"Le Bureau représente le fonctionnaire dans 99 % des cas pour une faute légère, sans faute ou sans infraction."},
+    {"q":"Dans le cas 2 (fonctionnaire plaignant), qui contacter pour une enquête ?","o":["Le SASP uniquement","La mairie","Le MCD, l'IRS ou le Cyber","L'avocat du fonctionnaire"],"a":2,"e":"Arrestation immédiate : SASP. Enquête : MCD, IRS, Cyber."},
+    {"q":"Dans le cas 2, un flagrant délit (hors crime) est constaté. Quelle procédure ?","o":["Comparution immédiate, sur ordre du Bureau et en présence obligatoire du procureur","Procès civil","Classement sans suite","Plainte citoyenne"],"a":0,"e":"Flagrant délit (article 2.9) : comparution immédiate si ce n'est pas un crime, ordre donné par le Bureau, présence du procureur obligatoire."},
+    {"q":"Une plainte citoyenne peut-elle être classée par l'agent de police seul ?","o":["Oui, s'il n'y a pas de preuve","Oui, après 24 heures","Oui, si le plaignant est d'accord","Non, jamais sans l'avis du Bureau de la Procureure Générale"],"a":3,"e":"Une plainte ne doit pas être terminée ou classée sans l'avis du Bureau de la Procureure Générale."}
+  ]
+  </script>
+</section>
+
+</div></main>
+<script src="js/main.js"></script>
+</body>
+</html>
